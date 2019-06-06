@@ -1,0 +1,50 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.swp
+
+# Eclipse
+.classpath
+.project
+.settings/
+.springbeans
+#bin/
+.pmd
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+#JREBEL
+rebel.xml
+
+# Mac
+.DS_Store
+
+#groovy
+.groovy
+
+# Maven
+log/
+logs/
+target/
+pom.xml.versionsBackup
+pom.xml.releaseBackup
+release.properties
+
+# vagrant
+.vagrant
+
+# database
+logfile
+
+# foundation
+.sass-cache/
+.oldgit/
+
+# local environment
+.env
