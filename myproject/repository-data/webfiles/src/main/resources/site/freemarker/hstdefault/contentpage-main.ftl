@@ -4,25 +4,18 @@
   Usage is prohibited except for people attending a training given or authorised by Hippo B.V., and only for that purpose.
 -->
 <#-- @ftlvariable name="document" type="org.example.beans.ContentDocument" -->
-<div class="body-wrapper">
-  <div class="container">
-    <div class="row">
-      <#if document??>
+<#if document??>
 
-        <#-- TODO replace the static title, introduction and content with dynamic markers -->
-
-        <div class="col-md-9 col-sm-9">
-          <h2>${document.title?html}</h2>
-          <p>${document.introduction?html}</p>
-          <p>
+    <#-- TODO replace the static title, introduction and content with dynamic markers -->
+    <div>
+        <h2>${document.title?html}</h2>
+        <p>${document.introduction?html}</p>
+        <p>
             <@hst.html hippohtml=document.content/>
-          </p>
-        </div>
-      <#elseif editMode>
-        <div>
-          <img src="<@hst.link path="/images/essentials/catalog-component-icons/simple-content.png" />"> Click to edit Simple Content
-        </div>
-      </#if>
+        </p>
     </div>
-  </div>
-</div>
+<#elseif editMode>
+    <div>
+        <img src="<@hst.link path="/images/essentials/catalog-component-icons/simple-content.png" />"> Click to edit Simple Content
+    </div>
+</#if>
