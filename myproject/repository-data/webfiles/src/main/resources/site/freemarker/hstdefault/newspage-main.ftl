@@ -18,19 +18,26 @@
 
             <div class="blog-span">
 
-              <#-- TODO 1: remove the fixed title and insert it dynamically -->
-              <h2>${document.title}</h2>
+                <#if (document.image.featured)??>
+                    <@hst.link var="imgLink" hippobean=document.image.featured />
+                <div class="blog-post-featured-img">
+                    <img src="${imgLink}"/>
+                </div>
+                </#if>
 
-              <#-- TODO 2: remove the fixed introduction and insert it dynamically. -->
-              <p>${document.introduction}</p>
+                <#-- TODO 1: remove the fixed title and insert it dynamically -->
+                <h2>${document.title}</h2>
 
-              <#-- TODO 3: remove the fixed content and insert it dynamically. Use the hst.html tag for that. -->
-              <div class="blog-post-body">
+                <#-- TODO 2: remove the fixed introduction and insert it dynamically. -->
+                <p>${document.introduction}</p>
+
+                <#-- TODO 3: remove the fixed content and insert it dynamically. Use the hst.html tag for that. -->
+                <div class="blog-post-body">
                 <@hst.html hippohtml=document.content/>
-              </div>
+                </div>
 
-              <div class="blog-post-details">
-              <#-- TODO 4: show the date from the current item. Copy it from the newslist-main-newslist.ftl -->
+                <div class="blog-post-details">
+                <#-- TODO 4: show the date from the current item. Copy it from the newslist-main-newslist.ftl -->
                 <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
                   <#if document.date??>
                       <span class="date">
