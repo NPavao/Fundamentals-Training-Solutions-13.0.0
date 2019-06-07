@@ -38,7 +38,7 @@
     <script type="text/javascript" src="<@hst.webfile path=file />"></script>
   </#list>
 
-  <@hst.headContributions xhtml=true/>
+  <@hst.headContributions categoryExcludes="htmlBodyEnd" xhtml=true/>
 
 </head>
 <body class="bgpattern-neutral">
@@ -143,6 +143,7 @@
     <@hst.include ref="footer"/>
 </div>
 
+    <@hst.headContributions categoryIncludes="htmlBodyEnd" xhtml=true/>
 </body>
 </html>
 
