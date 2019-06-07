@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:sitemap/new-landing-page:
+  jcr:primaryType: hst:sitemapitem
+  hst:componentconfigurationid: hst:pages/new-landing-page-landingpage
+  hst:lastmodified: 2019-06-07T14:51:33.732-04:00
+  hst:pagetitle: New Landing Page
