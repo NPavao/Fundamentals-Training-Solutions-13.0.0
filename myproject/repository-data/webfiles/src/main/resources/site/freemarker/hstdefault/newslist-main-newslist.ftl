@@ -32,31 +32,24 @@
                 </h2>
 
               <#-- TODO 4: Show the introduction of the current item. -->
-                <div class="blog-post-body">
-                  <p>GoGreen is Pleased to Announce its Nomination for a UNEF Sustainable Business Award</p>
-                  <p>
-                  <p>New York-Nairobi. GoGreen is among 10 global businesses recognized by the United Nations
-                    Environmental Fund with a nomination for the prestigious Sustainable Business Award. According
-                    to the Sustainable Business Awards announcement, GoGreen has been nominated for its
-                    &ldquo;outstanding contributions to fighting climate change with its global corporate social
-                    responsibility strategy.&rdquo;</p>
-                  <p>&ldquo;We&rsquo;re thrilled to be nominated for Sustainable Business Award&rdquo; notes
-                    GoGreen&rsquo;s CEO Robert Greene, &ldquo;we thoroughly respect the work of the UNEF and are
-                    proud to be listed among such visionary companies.&rdquo; Winners of the Sustainable Business
-                    Award will be announced at a ceremony in Nairobi this December.</p>
-                  </p>
-                </div>
+                  <div class="blog-post-body">
+                      ${item.introduction?html}
+                  </div>
 
-                <div class="blog-post-details">
+                  <div class="blog-post-details">
                   <#-- TODO 5: remove the fixed date and use item.date.time to insert it dynamically.
                              You may want to use the <@fmt.formatDate> tag for formatting. -->
-                  <div class="blog-post-details-item blog-post-details-item-left icon-calendar">22 October, 2015</div>
+                      <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
+                    <#if (item.date.time)??>
+                        <p><@fmt.formatDate value=item.date.time type="both" dateStyle="medium" timeStyle="short"/></p>
+                    </#if>
+                      </div>
 
-                  <div class="blog-post-details-item blog-post-details-item-right">
-                    <a href="news-detail.html"> Read more<i class="fa fa-chevron-right"></i>
-                    </a>
+                      <div class="blog-post-details-item blog-post-details-item-right">
+                          <a href="news-detail.html"> Read more<i class="fa fa-chevron-right"></i>
+                          </a>
+                      </div>
                   </div>
-                </div>
               </div>
             </div>
           </#list>
