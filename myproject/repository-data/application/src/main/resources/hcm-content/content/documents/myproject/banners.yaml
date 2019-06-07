@@ -1,9 +1,9 @@
 /content/documents/myproject/banners:
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-  jcr:uuid: 5082fc1a-6ad5-471f-b2e4-c5de0418e2a5
+  jcr:uuid: f325c5c3-8c52-44cf-9127-ff2bc6ade70a
   hippostd:foldertype: [new-banner-document, new-banner-folder]
-  hippotranslation:id: dcd4222e-c594-4306-9002-290219dac515
+  hippotranslation:id: 64d1b1b0-2760-43bb-913b-1ee1802d716b
   hippotranslation:locale: en
   /banner1:
     jcr:primaryType: hippo:handle
@@ -12,7 +12,7 @@
     /banner1:
       jcr:primaryType: myproject:bannerdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: bf978a8d-2a87-4c0f-92ea-9e06eb3ebc7b
+      jcr:uuid: 15dd15c0-85ac-4495-8c40-652677b87a40
       hippo:availability: [live, preview]
       hippostd:holder: admin
       hippostd:state: published
@@ -21,7 +21,7 @@
       hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
-      hippotranslation:id: 11f51033-90ed-493c-ab09-26c5094a1d56
+      hippotranslation:id: 621cae47-8bae-4d6a-9910-5fcac3eeb88d
       hippotranslation:locale: en
       myproject:title: Sample banner
       /myproject:content:
@@ -47,7 +47,7 @@
     /banner2:
       jcr:primaryType: myproject:bannerdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 3947c9ac-2c3f-4999-b736-3b97a736a887
+      jcr:uuid: cee4b3bf-732f-432c-bb47-7da0d010d3f5
       hippo:availability: [live, preview]
       hippostd:holder: admin
       hippostd:state: published
@@ -56,7 +56,7 @@
       hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
-      hippotranslation:id: 8a2b542f-33b9-46dc-ba9c-ed87f49ee560
+      hippotranslation:id: 6c6e7ebc-a32d-4fbb-85d5-7c8912a013ae
       hippotranslation:locale: en
       myproject:title: Sample banner 2
       /myproject:content:

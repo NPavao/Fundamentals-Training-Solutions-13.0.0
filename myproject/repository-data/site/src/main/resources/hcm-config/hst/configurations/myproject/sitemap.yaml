@@ -15,19 +15,6 @@ definitions:
         hst:componentconfigurationid: hst:pages/pagenotfound
         hst:pagetitle: Not Found Page
         hst:refId: pagenotfound
-      /content:
-        jcr:primaryType: hst:sitemapitem
-        hst:componentconfigurationid: hst:pages/contentlist
-        hst:pagetitle: List of Simple Documents
-        hst:relativecontentpath: content
-        /_any_.html:
-          jcr:primaryType: hst:sitemapitem
-          hst:componentconfigurationid: hst:pages/contentpage
-          hst:relativecontentpath: ${parent}/${1}
-        /_any_:
-          jcr:primaryType: hst:sitemapitem
-          hst:componentconfigurationid: hst:pages/contentlist
-          hst:relativecontentpath: ${parent}/${1}
       /news:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/newslist
@@ -41,7 +28,16 @@ definitions:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/newslist
           hst:relativecontentpath: ${parent}/${1}
-      /about:
+      /content:
         jcr:primaryType: hst:sitemapitem
-        hst:componentconfigurationid: hst:pages/contentpage
-        hst:relativecontentpath: service/about-us
+        hst:componentconfigurationid: hst:pages/contentlist
+        hst:pagetitle: List of Simple Documents
+        hst:relativecontentpath: content
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/contentpage
+          hst:relativecontentpath: ${parent}/${1}
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/contentlist
+          hst:relativecontentpath: ${parent}/${1}

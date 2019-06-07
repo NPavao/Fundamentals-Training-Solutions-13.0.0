@@ -1,9 +1,0 @@
-definitions:
-  config:
-    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/myproject:featured:
-      jcr:primaryType: frontend:pluginconfig
-      height: 302
-      upscaling: false
-      width: 633
-      compression: 1.0
-      optimize: quality

@@ -6,12 +6,12 @@ definitions:
     /hst:hst/hst:configurations/hst:default/hst:templates/essentials-banner:
       jcr:primaryType: hst:template
       hst:renderpath: webfile:/freemarker/hstdefault/essentials-banner.ftl
-    /hst:hst/hst:configurations/hst:default/hst:templates/contentpage-main:
-      jcr:primaryType: hst:template
-      hst:renderpath: webfile:/freemarker/hstdefault/contentpage-main.ftl
     /hst:hst/hst:configurations/hst:default/hst:templates/newslist-main-newslist:
       jcr:primaryType: hst:template
       hst:renderpath: webfile:/freemarker/hstdefault/newslist-main-newslist.ftl
     /hst:hst/hst:configurations/hst:default/hst:templates/essentials-openstreetmap:
       jcr:primaryType: hst:template
       hst:renderpath: webfile:/freemarker/hstdefault/essentials-openstreetmap.ftl
+    /hst:hst/hst:configurations/hst:default/hst:templates/contentpage-main:
+      jcr:primaryType: hst:template
+      hst:renderpath: webfile:/freemarker/hstdefault/contentpage-main.ftl
