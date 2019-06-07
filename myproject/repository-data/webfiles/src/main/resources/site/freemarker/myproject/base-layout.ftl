@@ -85,7 +85,7 @@
 
                     <!-- Logo -->
                     <div class="col-xs-2 logo">
-          <@hst.webfile path="images/gogreenlogo2.png" var="link"/>
+                        <@hst.webfile path="images/gogreenlogo2.png" var="link"/>
                         <a href="index.html"><img src="${link}" alt="" height="107"/></a>
                     </div>
                     <!-- //Logo// -->
@@ -99,17 +99,7 @@
                             <i class="fa fa-list-ul"></i>
                         </div>
                         <!-- //Mobile Button Menu// -->
-
-                        <nav>
-                            <ul class="navigation" id="main-navigation">
-                                <li><a href="index.html" class="activelink"><span class="label-nav">Home</span> </a></li>
-                                <li><a href="news.html"><span class="label-nav">News</span></a></li>
-                                <li><a href="blogs.html"><span class="label-nav">Blogs</span></a></li>
-                                <li><a href="events.html"><span class="label-nav">Events</span></a></li>
-                                <li><a href="products.html"><span class="label-nav">Products</span></a></li>
-                                <li><a href="about.html"><span class="label-nav">About</span></a></li>
-                            </ul>
-                        </nav>
+                        <@hst.include ref="menu"/>
 
                         <!-- Mobile Nav. Container -->
                         <ul class="mobile-nav">
@@ -145,74 +135,12 @@
             </div>
         </div>
         <div>
-            TODO: Main Content must be shown here.
+            <@hst.include ref="main"/>
         </div>
     </div>
 
     <!-- footer -->
-    <footer>
-        <div class="footer">
-
-            <div class="container">
-                <div class="footer-wrapper">
-                    <div class="row">
-
-                        <!-- Footer Col. -->
-                        <div class="col-md-3 col-sm-3 footer-col">
-                            <div class="footer-content">
-                                <div class="footer-content-logo">
-                <@hst.webfile path="images/logo-hippo.png" var="link" />
-                                    <a href="http://www.onehippo.com" target="_blank">
-                                        <img src="${link}" alt="onehippo.com"/>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- //Footer Col.// -->
-
-                        <!-- Footer Col. -->
-                        <div class="col-md-3 col-sm-3 footer-col">
-                            <div class="footer-title">SERVICE</div>
-                            <div class="footer-content footer-recent-tweets-container">
-                                <ul class="footer-category-list">
-                                    <li><a href="rss">RSS</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- //Footer Col.// -->
-
-                        <!-- Footer Col. -->
-                        <div class="col-md-3 col-sm-3 footer-col">
-                            <div class="footer-title">SECTIONS</div>
-                            <div class="footer-content">
-                                <ul class="footer-category-list">
-                                    <li><a href="news.html">News</a></li>
-                                    <li><a href="events.html">Events</a></li>
-                                    <li><a href="blogs.html">Blogs</a></li>
-                                    <li><a href="products.html">Products</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- //Footer Col.// -->
-
-                        <!-- Footer Col. -->
-                    </div>
-                </div>
-
-            </div>
-            <div class="copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 center-text">
-                            <div class="copyright-text">Hippo &copy; 2010-2017</div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <@hst.include ref="footer"/>
 </div>
 
 </body>
