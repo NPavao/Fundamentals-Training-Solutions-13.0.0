@@ -80,5 +80,9 @@
       </div>
     </div>
   </div>
+<@hst.link hippobean=document var="canonicalLink" canonical=true/>
+<@hst.headContribution>
+    <link rel="canonical" href="${canonicalLink}"/>
+</@hst.headContribution>
 </#if>
 
