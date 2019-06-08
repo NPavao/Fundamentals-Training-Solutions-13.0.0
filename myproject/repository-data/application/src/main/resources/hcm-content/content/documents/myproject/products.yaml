@@ -3,7 +3,7 @@
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 3339eb62-6ba6-4854-8e5b-0d1a8dd9326b
-  hippostd:foldertype: [new-translated-folder, new-document]
+  hippostd:foldertype: [new-product-document, new-product-folder]
   hippotranslation:id: 9f8c9de4-6ae9-48ee-ad4a-d72bbd3cc39d
   hippotranslation:locale: en
   /new-product:
