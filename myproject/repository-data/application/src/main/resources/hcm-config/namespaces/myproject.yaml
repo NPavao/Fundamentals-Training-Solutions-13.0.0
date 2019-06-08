@@ -3,4 +3,4 @@ definitions:
     /hippo:namespaces/myproject:
       jcr:primaryType: hipposysedit:namespace
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 4b2bf683-4066-4b46-8604-31cf47ce5c03
+      jcr:uuid: 2536e7a2-bfa6-4308-adf4-161b5dc75674
