@@ -1,9 +1,10 @@
 /content/documents/myproject/content:
+  .meta:order-before: configuration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-  jcr:uuid: f39bb278-9353-4b9c-92d7-13b03920ec8e
+  jcr:uuid: 86f95a37-0982-4479-9064-04a520d2ce1a
   hippostd:foldertype: [new-content-document, new-content-folder]
-  hippotranslation:id: aecb52b8-567a-45fc-8438-489707d7a135
+  hippotranslation:id: e4d905d9-efef-4e00-a1fe-d318675fd240
   hippotranslation:locale: en
   /sample-document:
     jcr:primaryType: hippo:handle
@@ -13,7 +14,7 @@
     /sample-document:
       jcr:primaryType: myproject:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: a1642c1c-b5d8-46f5-a667-747990c87ba5
+      jcr:uuid: 0fee0236-e1ae-485e-afd5-7c76559e12e1
       hippo:availability: [live, preview]
       hippostd:holder: admin
       hippostd:state: published
@@ -22,7 +23,7 @@
       hippostdpubwf:lastModificationDate: 2014-03-25T16:52:00+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippostdpubwf:publicationDate: 2014-03-25T16:52:00+01:00
-      hippotranslation:id: d263df51-eca9-4c32-b861-c56b1f9a4ffa
+      hippotranslation:id: 4ef8de08-600a-4ad2-bb6e-504c7a93cb38
       hippotranslation:locale: en
       myproject:introduction: Lorem Ipsum is simply dummy text of the printing and
         typesetting industry.
@@ -55,7 +56,7 @@
     /another-sample-document:
       jcr:primaryType: myproject:contentdocument
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 2a2fdaf9-d514-4a1d-8ea5-934dbea33b15
+      jcr:uuid: 60bfaf1c-a1f5-4428-8a77-c8dcc7084764
       hippo:availability: [live, preview]
       hippostd:holder: admin
       hippostd:state: published
@@ -64,7 +65,7 @@
       hippostdpubwf:lastModificationDate: 2014-03-25T16:57:00+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippostdpubwf:publicationDate: 2014-03-25T16:57:00+01:00
-      hippotranslation:id: 4f4db9ab-c5ba-42ab-80f1-3b3131dc73ef
+      hippotranslation:id: d3877bbe-4cc9-49bf-90e1-a18ffb9c7a61
       hippotranslation:locale: en
       myproject:introduction: Lorem Ipsum is simply dummy text of the printing and
         typesetting industry.

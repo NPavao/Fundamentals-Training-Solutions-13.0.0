@@ -1,0 +1,78 @@
+/content/documents/myproject/products:
+  .meta:order-before: configuration
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 3339eb62-6ba6-4854-8e5b-0d1a8dd9326b
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 9f8c9de4-6ae9-48ee-ad4a-d72bbd3cc39d
+  hippotranslation:locale: en
+  /new-product:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 8a0c973f-dad0-4d70-a5ab-a065515fe3bb
+    hippo:name: new product
+    hippo:versionHistory: 4dd14ecd-65de-4557-aea8-d5e7f9701623
+    /new-product[1]:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a72de0ff-7bf4-4f36-8a9b-a000bbe52f66
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-06-07T21:57:29.509-04:00
+      hippostdpubwf:lastModificationDate: 2019-06-07T22:16:46.546-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9ba314b2-24d4-4e41-8f66-29e492a88559
+      hippotranslation:locale: en
+      myproject:categories: []
+      myproject:instock: 0
+      myproject:introduction: ''
+      myproject:price: 0.0
+      myproject:rating: 0.0
+      myproject:title: New Product
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /new-product[2]:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 3c458ba8-16bc-461a-a1e7-cfef25df9504
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-06-07T21:57:29.509-04:00
+      hippostdpubwf:lastModificationDate: 2019-06-07T22:18:46.427-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9ba314b2-24d4-4e41-8f66-29e492a88559
+      hippotranslation:locale: en
+      myproject:categories: []
+      myproject:instock: 0
+      myproject:introduction: ''
+      myproject:price: 0.0
+      myproject:rating: 0.0
+      myproject:title: New Product
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /new-product[3]:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 41c9e686-323b-47cf-8f16-8388727a2285
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-06-07T21:57:29.509-04:00
+      hippostdpubwf:lastModificationDate: 2019-06-07T22:18:46.427-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-06-07T22:18:49.376-04:00
+      hippotranslation:id: 9ba314b2-24d4-4e41-8f66-29e492a88559
+      hippotranslation:locale: en
+      myproject:categories: []
+      myproject:instock: 0
+      myproject:introduction: ''
+      myproject:price: 0.0
+      myproject:rating: 0.0
+      myproject:title: New Product
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
