@@ -24,6 +24,11 @@
       <version>${essentials.version}</version>
       <type>pom</type>
     </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7.training.essentials</groupId>
+      <artifactId>new-content-section-feature</artifactId>
+      <version>${training.features.version}</version>
+    </dependency>
   </dependencies>
   <build>
     <resources>
