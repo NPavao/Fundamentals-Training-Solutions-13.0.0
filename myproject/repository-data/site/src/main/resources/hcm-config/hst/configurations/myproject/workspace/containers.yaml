@@ -63,4 +63,4 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hst:label: Product List Main
           hst:xtype: hst.vbox
-          hst:lastmodified: 2019-06-09T12:50:34.171-04:00
+          hst:lastmodified: 2019-06-09T20:39:35.903-07:00

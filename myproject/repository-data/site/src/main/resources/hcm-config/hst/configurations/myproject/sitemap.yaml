@@ -45,12 +45,17 @@ definitions:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/productlist
         hst:pagetitle: List of Product Items
-        hst:relativecontentpath: products
+        hst:relativecontentpath: productfacets
         /_any_.html:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/productpage
-          hst:relativecontentpath: ${parent}/${1}
+          hst:relativecontentpath: products/${1}
         /_any_:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/productlist
           hst:relativecontentpath: ${parent}/${1}
+      /robots.txt:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/robotstxt
+        hst:hiddeninchannelmanager: true
+        hst:relativecontentpath: ../administration/robots
