@@ -1,5 +1,0 @@
-definitions:
-  config:
-    /hst:hst/hst:configurations:
-      /myproject:
-        jcr:primaryType: hst:configuration

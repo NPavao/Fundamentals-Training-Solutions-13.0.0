@@ -1,4 +1,4 @@
 definitions:
   config:
-    /hst:hst/hst:blueprints:
+    /hst:hst:
       .meta:delete: true
